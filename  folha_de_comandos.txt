@@ -19,3 +19,5 @@ Criar app: python3 manage.py startapp website
 Para migrar os models ao banco de dadso:
 -python3 manage.py makemigrations
 -python3 manage.py migrate
+
+listar branchs: git branch -v

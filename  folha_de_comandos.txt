@@ -1,0 +1,21 @@
+Ativar virtual env: .venv/bin/activate
+
+Criar projeto Django: djando-admin startprojetc blog
+
+python3 manage.py runserver
+
+Criar tabelas no banco de dados: python3 manage.py migrate  
+
+Criar superusuario: python3 manage.py createsuperuser
+
+usuário admin: victor
+
+Toda url tem que estar conectada com um view
+
+Model: descrição de como o banco de dados é
+
+Criar app: python3 manage.py startapp website
+
+Para migrar os models ao banco de dadso:
+-python3 manage.py makemigrations
+-python3 manage.py migrate

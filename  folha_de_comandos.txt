@@ -16,8 +16,14 @@ Model: descrição de como o banco de dados é
 
 Criar app: python3 manage.py startapp website
 
-Para migrar os models ao banco de dadso:
+Para migrar os models ao banco de dados(Toda vez que modificar o model tem que fazer isso):
 -python3 manage.py makemigrations
 -python3 manage.py migrate
 
 listar branchs: git branch -v
+
+Criação de templates: colocar a pasta onde situa os templates nos settings e renderizar a partir de views
+
+images = models.ImageField(upload_to='posts', null = True, blank = True)
+null e blank para não ser um campo obrigatório no banco de dados
+upload_to = 'posts' posts é uma pasta
